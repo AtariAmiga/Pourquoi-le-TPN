@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+
+\input{0a - preambule}
+
+\title{Pourquoi le Théorème du Produit Nul (TPN) ?}
+
+\begin{document}
+
+\maketitle
+
+\textit{"si un produit est nul, alors l’un de ses facteurs est nul"} sens direct (1); \\
+\textit{"si un des facteurs d’un produit est nul, alors le produit est nul"} réciproque (2).
+
+Ces deux phrases se résument en langage mathématique ainsi:
+\[
+ab = 0 \;\iff a=0 \text{ ou } b=0
+\]
+
+Prouvons-le. Pour cela, il faut démontrer ces deux points suivants:
+\begin{gather}   
+    ab = 0 \ \Rightarrow \ a=0 \text{ ou } b=0 \\
+    a=0 \text{ ou } b=0 \ \Rightarrow \ ab = 0
+\end{gather}
+
+La réciproque (2) est immédiate à démontrer car zéro est absorbant. 
+
+Il reste donc à démontrer le sens direct (1).
+
+Supposons que $a \neq 0$. \\
+$a$ admet donc un inverse qui est $a^{-1}$, tel que $a^{-1}a = 1$. On peut donc écrire
+\begin{gather*}
+    ab = 0 \ \Rightarrow \ a^{-1}ab = a^{-1}\cdot0 \\
+    (a^{-1}a)b = 0 \\
+    1 \cdot b = 0 \\
+    b = 0
+\end{gather*}
+
+On  raisonne de la même manière en supposant $b \neq 0$.
+
+On en déduit donc
+\[
+ab = 0 \;\Rightarrow\; a=0 \text{ ou } b=0
+\]
+
+\end{document}
